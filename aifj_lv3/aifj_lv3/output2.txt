@@ -1,0 +1,61 @@
+line 1: #define b  3.14  
+('#define b  3.14 ', constant) 
+
+ 
+line 2: int main ( ) {  
+('int', keyword) 
+('main', identifier) 
+('(', unknown) 
+(')', unknown) 
+('{', unknown) 
+
+ 
+line 3: //ovo je komentar  
+('//ovo je komentar ', comment) 
+
+ 
+line 4: int a = 1 ;  
+('int', keyword) 
+('a', identifier) 
+('=', operator) 
+('1', unknown) 
+(';', separator) 
+
+ 
+line 5: int a_A ;  
+('int', keyword) 
+('a_A', unknown) 
+(';', separator) 
+
+ 
+line 6: float c = a + b ;  
+('float', keyword) 
+('c', identifier) 
+('=', operator) 
+('a', identifier) 
+('+', operator) 
+('b', identifier) 
+(';', separator) 
+
+ 
+line 7: float krivaOznaka& ;  
+('float', keyword) 
+('krivaOznaka&', unknown) 
+(';', separator) 
+
+ 
+line 8: }  
+('}', unknown) 
+
+ 
+
+ 
+
+ 
+- separators[4]: ; [4],  
+- comments[1]: //ovo je komentar  [1],  
+- identifiers[5]: main [1], a [2], c [1], b [1],  
+- keywords[5]: int [3], float [2],  
+- operators[3]: = [2], + [1],  
+- constants[1]: #define b  3.14  [1],  
+- unknown[7]: ( [1], ) [1], { [1], 1 [1], a_A [1], krivaOznaka& [1], } [1],  

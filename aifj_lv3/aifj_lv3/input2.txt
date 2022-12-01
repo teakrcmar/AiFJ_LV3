@@ -1,0 +1,10 @@
+#define b  3.14
+
+int main ( ) {
+	//ovo je komentar
+	int a = 1 ;
+	int a_A ;
+
+	float c = a + b ;
+	float krivaOznaka& ;
+}
